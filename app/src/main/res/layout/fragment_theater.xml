@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOW SHOWING"
+        android:padding="16dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+    <ImageView
+        android:id="@+id/theatreview"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/theatretext1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#212121"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+        android:id="@+id/theatretext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#212121"
+        />
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+
+
